@@ -1,0 +1,49 @@
+﻿@model TataPk
+<div class="container">
+    <div class="card">
+        <div class="card-header text-center text-uppercase">
+          <h1>TATA_DETAILS</h1>
+        </div>
+        <div class="card-body">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="row">
+                       @* <div class="col-md-4"> *@
+                       @*  <p class="card-text text-uppercase "><strong>ID</strong></p> *@
+                       @* </div>     *@
+                       @*  <div class="col-md-8"> *@
+                       @*  <p>@Model.ID</p> *@
+                       @*  </div> *@
+                        <div class="col-md-4">
+                            <p class="card-text text-uppercase "><strong>NAME</strong></p>
+                        </div>
+                        <div class="col-md-8">
+                            <p>@Model.Name</p>
+                        </div>
+                        
+                        <div class="col-md-4">
+                            <p class="card-text text-uppercase"><strong>ESTABLISH YEAR</strong></p>
+                        </div>
+                        <div class="col-md-8">
+                            <p>@Model.EstablishYear</p>
+                        </div>
+                       
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <img src="@Model.Logo" alt="IMAGE" width="100%" />
+                </div>
+            </div>
+            <div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                     <a asp-action="subscribe" asp-controller="Subscribe" class="btn btn-danger text-uppercase">back</a>
+                    </div>
+                  
+
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
