@@ -32,5 +32,4 @@
 ![Screenshot (567)](https://github.com/user-attachments/assets/d1ee3235-fa1f-4dc4-ab28-b02568309497)
 ##STEP-7
 ![Screenshot (568)](https://github.com/user-attachments/assets/64895bec-d7a8-4e54-81a4-9428c267f870)
-##STEP-8
-![Screenshot (569)](https://github.com/user-attachments/assets/40306487-9ddd-4a64-a2ed-4256f4c8b57d)
+
